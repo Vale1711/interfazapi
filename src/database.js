@@ -1,9 +1,8 @@
 import {createPool} from 'mysql2/promise';
 
 const pool = createPool({
-    host: 'localhost',
-    port: '3306',
-    user: 'root',
+    host: 'database-rst.cpwiig6c2upx.us-east-2.rds.amazonaws.com',
+    user: 'admin',
     password: 'Kero123456',
     database: 'restApi'
 });
